@@ -29,7 +29,14 @@ function Calc()
 
     this.modulus = function(dividend, divisor)
     {
-        return dividend % divisor;
+        if(divisor === 0)
+        {
+            return NaN;
+        }
+        else
+        {
+            return dividend % divisor;
+        }
     };
 
     this.power = function(base, exponent)
