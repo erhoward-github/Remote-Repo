@@ -31,4 +31,9 @@ function Calc()
     {
         return dividend % divisor;
     };
+
+    this.power = function(base, exponent)
+    {
+        return Math.pow(base, exponent);
+    };
 }
