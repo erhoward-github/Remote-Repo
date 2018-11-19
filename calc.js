@@ -25,5 +25,10 @@ function Calc()
         {
             return dividend / divisor;
         }
-    }
+    };
+
+    this.modulus = function(dividend, divisor)
+    {
+        return dividend % divisor;
+    };
 }
