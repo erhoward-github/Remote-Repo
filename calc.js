@@ -43,4 +43,9 @@ function Calc()
     {
         return Math.pow(base, exponent);
     };
+
+    this.absolute = function(number)
+    {
+        return Math.abs(number);
+    }
 }
